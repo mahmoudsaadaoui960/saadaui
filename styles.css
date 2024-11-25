@@ -1,0 +1,84 @@
+/* Général */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Couleur de fond claire et apaisante */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Conteneur principal */
+.auto-style1 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Titre principal (H1) */
+h1 {
+    font-size: 3rem;
+    color: #01579b; /* Bleu foncé pour rappeler la couleur de Neptune */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Paragraphe */
+p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Images */
+img {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre douce autour des images */
+}
+
+/* Liens */
+a {
+    color: #01579b; /* Assure la cohérence avec le bleu utilisé dans les titres */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #01579b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Utilisation des media queries pour les petits écrans */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 100%;
+    }
+}
